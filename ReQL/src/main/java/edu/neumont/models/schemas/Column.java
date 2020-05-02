@@ -5,6 +5,17 @@ public class Column
     private String name;
     private String regexPattern;
 
+    public Column()
+    {
+
+    }
+
+    public Column(String name, String regexPattern)
+    {
+        this.name = name;
+        this.regexPattern = regexPattern;
+    }
+
     public String getName()
     {
         return name;

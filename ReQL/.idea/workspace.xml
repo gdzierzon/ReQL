@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3afe30d6-f96f-482e-bb60-d5c2cb607d44" name="Default Changelist" comment="" />
+    <list default="true" id="3afe30d6-f96f-482e-bb60-d5c2cb607d44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/neumont/views/StatementBuilderViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neumont/models/schemas/Column.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neumont/models/schemas/Column.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neumont/models/schemas/SchemaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neumont/models/schemas/SchemaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neumont/views/StatementBuilderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neumont/views/StatementBuilderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neumont/models/schemas/SchemaBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neumont/models/schemas/SchemaBuilderTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -31,6 +41,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1awTFROsz3maTl5TWdBqIMhFmK6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,10 +49,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../simple-library/target/classes/cox" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,16 +63,60 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34712642" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.neumont.views" />
       <recent name="edu.neumont.models.schemas" />
       <recent name="edu.neumont.models.regex" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StatementBuilderViewTest.should_get_input_from_user">
+    <configuration name="SchemaBuilderTest.should_get_table_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neumont.models.schemas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neumont.models.schemas" />
+      <option name="MAIN_CLASS_NAME" value="edu.neumont.models.schemas.SchemaBuilderTest" />
+      <option name="METHOD_NAME" value="should_get_table_name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatementBuilderViewTest.should_get_input_from_user" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neumont.views.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neumont.views" />
+      <option name="MAIN_CLASS_NAME" value="edu.neumont.views.StatementBuilderViewTest" />
+      <option name="METHOD_NAME" value="should_get_input_from_user" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StatementBuilderViewTest.should_get_input_from_user" />
+        <item itemvalue="JUnit.SchemaBuilderTest.should_get_table_name" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,6 +130,13 @@
       <updated>1587645552096</updated>
       <workItem from="1587645558615" duration="698000" />
       <workItem from="1587646284348" duration="1912000" />
+      <workItem from="1587659169014" duration="3613000" />
+      <workItem from="1587662982139" duration="1703000" />
+      <workItem from="1587747410834" duration="952000" />
+      <workItem from="1588014703169" duration="36000" />
+      <workItem from="1588149041733" duration="2440000" />
+      <workItem from="1588184877207" duration="1363000" />
+      <workItem from="1588394131157" duration="986000" />
     </task>
     <servers />
   </component>
@@ -80,33 +144,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="766" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1587647125744">
+    <state x="766" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1587661558965">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="766" y="201" key="#com.intellij.ide.util.MemberChooser/-3840.12.1920.1050/0.0.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587647125744" />
-    <state width="1878" height="265" key="GridCell.Tab.0.bottom" timestamp="1587646257027">
+    <state x="766" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-3840.0.1920.1050@0.0.1920.1050" timestamp="1587661558965" />
+    <state x="742" y="281" key="FileChooserDialogImpl" timestamp="1588167307221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="742" y="281" key="FileChooserDialogImpl/-3840.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588167307221" />
+    <state x="742" y="281" key="FileChooserDialogImpl/0.0.1920.1050/-3840.12.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587747510853" />
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom" timestamp="1588167460654">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom/-3840.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588167460654" />
     <state width="1878" height="265" key="GridCell.Tab.0.bottom/-3840.12.1920.1050/0.0.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587646257027" />
-    <state width="1878" height="265" key="GridCell.Tab.0.center" timestamp="1587646257027">
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1050/-3840.0.1920.1050@0.0.1920.1050" timestamp="1587674757987" />
+    <state width="1878" height="264" key="GridCell.Tab.0.center" timestamp="1588167460654">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1878" height="264" key="GridCell.Tab.0.center/-3840.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588167460654" />
     <state width="1878" height="265" key="GridCell.Tab.0.center/-3840.12.1920.1050/0.0.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587646257027" />
-    <state width="1878" height="265" key="GridCell.Tab.0.left" timestamp="1587646257027">
+    <state width="1878" height="264" key="GridCell.Tab.0.center/0.0.1920.1050/-3840.0.1920.1050@0.0.1920.1050" timestamp="1587674757987" />
+    <state width="1878" height="264" key="GridCell.Tab.0.left" timestamp="1588167460654">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1878" height="264" key="GridCell.Tab.0.left/-3840.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588167460654" />
     <state width="1878" height="265" key="GridCell.Tab.0.left/-3840.12.1920.1050/0.0.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587646257027" />
-    <state width="1878" height="265" key="GridCell.Tab.0.right" timestamp="1587646257027">
+    <state width="1878" height="264" key="GridCell.Tab.0.left/0.0.1920.1050/-3840.0.1920.1050@0.0.1920.1050" timestamp="1587674757986" />
+    <state width="1878" height="264" key="GridCell.Tab.0.right" timestamp="1588167460654">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1878" height="264" key="GridCell.Tab.0.right/-3840.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588167460654" />
     <state width="1878" height="265" key="GridCell.Tab.0.right/-3840.12.1920.1050/0.0.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587646257027" />
-    <state x="462" y="167" key="SettingsEditor" timestamp="1587645937156">
+    <state width="1878" height="264" key="GridCell.Tab.0.right/0.0.1920.1050/-3840.0.1920.1050@0.0.1920.1050" timestamp="1587674757987" />
+    <state x="462" y="167" key="SettingsEditor" timestamp="1588167455508">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="462" y="167" key="SettingsEditor/-3840.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588167455508" />
     <state x="462" y="167" key="SettingsEditor/-3840.12.1920.1050/0.0.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587645937156" />
-    <state x="732" y="217" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587647598098">
+    <state x="732" y="217" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588149363602">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="732" y="217" key="com.intellij.testIntegration.createTest.CreateTestDialog/-3840.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588149363602" />
     <state x="732" y="217" key="com.intellij.testIntegration.createTest.CreateTestDialog/-3840.12.1920.1050/0.0.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1587647598098" />
+    <state x="385" y="132" key="new project wizard" timestamp="1588185688305">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="385" y="132" key="new project wizard/0.0.1920.1050/-3840.12.1920.1050/-717.2172.1440.870@0.0.1920.1050" timestamp="1588185688305" />
   </component>
 </project>

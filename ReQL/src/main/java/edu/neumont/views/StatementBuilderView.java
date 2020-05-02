@@ -1,20 +1,25 @@
 package edu.neumont.views;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class StatementBuilderView
 {
 
     private String message;
+    private Scanner console;
+
+    public StatementBuilderView(InputStream stream, String message) {
+        this.console = new Scanner(stream);
+        this.message = message;
+    }
 
     public StatementBuilderView(String message) {
-        this.message = message;
+        this(System.in, message);
     }
 
     public String display()
     {
-        Scanner console = new Scanner(System.in);
-
         System.out.println(message);
         System.out.println();
 
